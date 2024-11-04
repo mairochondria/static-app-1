@@ -1,0 +1,159 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#logo {
+	font-family: Changa;
+	font-weight: 300;
+	font-size: 35px;
+	line-height: 32px;
+	color: #E64A19 !important;
+}
+
+.nav-link {
+	font-family: Changa;
+	font-weight: 300;
+	line-height: 24px;	
+	font-size: 20px;
+	color: #FF5722 !important;
+}
+
+#hero {
+    background-image: url('./images/hero-background.jpg'); /* Change this path to match your image's location */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+#hero h1 {
+	font-family: Changa;
+	font-weight: 800;
+	line-height: 44px;
+	font-size: 50px;
+	color: #FFFFFF;
+}
+
+#hero p {
+	font-family: Changa;
+	font-size: 26px;
+	font-weight: 200;
+	line-height: 26px;
+	color: #FFFFFF;
+}
+
+#hero .btn {
+    margin-top: 20px; /* Adjust the value as needed */
+    margin-bottom: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-family: Changa;
+    font-size: 1.2rem;
+    color: #FFFFFF; /* Text color */
+    background-color: #FF5722; /* Button color (orange) */
+    border: none;
+    border-radius: 25px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+}
+
+#hero .btn:hover {
+    background-color: #E64A19; /* Darker shade on hover */
+}
+
+#carousel h1 {
+	font-family: Changa;
+	font-weight: 800;
+	line-height: 44px;
+	font-size: 50px;
+	color: #E64A19;
+}
+
+#carousel p {
+	font-family: Changa;
+	font-size: 26px;
+	font-weight: 200;
+	line-height: 26px;
+	color: #FFFFFF;
+}
+
+#carouselExampleControls {
+    width: 80%; /* Adjust the width as needed, e.g., 50%, 80%, or a fixed px value */
+    max-width: 500px; /* Optional: Add a max-width to avoid too-large sizes */
+    height: 5	00px; /* Adjust the height as needed */
+}
+
+@media (max-width: 768px) { /* Adjust for tablets or smaller screens */
+    #carouselExampleControls {
+        height: 400px; /* Set a smaller height for medium screens */
+    }
+}
+
+@media (max-width: 576px) { /* Adjust for small screens */
+    #carouselExampleControls {
+        height: 300px; /* Set a smaller height for small screens */
+    }
+}
+
+#carouselExampleControls .carousel-inner {
+    height: 100%; /* Ensure inner items take full height of the carousel */
+}
+#carouselExampleControls .carousel-item img {
+    object-fit: cover; /* Ensures the images fill the carousel item without stretching */
+    width: 100%; /* Fit image to the width of the carousel item */
+    height: 100%; /* Fit image to the height of the carousel item */
+}
+
+
+
+#carousel .carousel-control-prev-icon,
+#carousel .carousel-control-next-icon {
+    background-color: #ff5722; /* Background color for the arrows */
+    border-radius: 50%; /* Make icons circular */
+}
+
+#card1 {
+	width: 16rem;
+}
+
+#card2 {
+	width: 16rem;
+}
+
+#card3 {
+	width: 16rem;
+}
+
+
+#products h1 {
+	font-family: Changa;
+	font-weight: 800;
+	line-height: 44px;
+	font-size: 50px;
+	color: #E64A19;
+}
+
+#products h4 {
+	font-family: Changa;
+	font-weight: 200;
+	color: #FF5722;
+}
+
+#products p {
+	font-family: Changa;
+	font-weight: 200;
+	line-height: 26px;
+	color: #FFFFFF;
+}
+
+#products .card-body {
+	background-color:  #000000;
+}
+
+footer {
+	font-family: Changa;
+	font-weight: 300;
+	line-height: 24px;
+	text-align: left;
+	color: #FFFFFF;
+}
